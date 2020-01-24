@@ -1,0 +1,28 @@
+{
+  "name": "homebridge-blinds",
+  "version": "0.0.1",
+  "description": "My room's blind plugin for Homebridge: https://github.com/AlonsoApp/homebridge-blinds-alonsoapp",
+  "license": "GPL-3.0",
+  "author": {
+    "name": "Iñigo Alonso"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "blinds"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AlonsoApp/homebridge-blinds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlonsoApp/homebridge-blinds-alonsoapp/issues"
+  },
+  "engines": {
+    "node": "^6.11.4 || ^8.7.0",
+    "homebridge": "^0.4.29"
+  },
+  "dependencies": {
+    "request": "2.49.x"
+  }
+}
